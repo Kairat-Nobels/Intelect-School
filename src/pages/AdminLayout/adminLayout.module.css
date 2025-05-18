@@ -1,0 +1,75 @@
+@import 'rsuite/dist/rsuite.min.css';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 30px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar a {
+  padding: 12px 20px;
+  font-family: cursive;
+  color: #1d1d1d;
+  font-weight: 550;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  transition: .37s;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  transform: scale(1.102);
+  font-weight: 600;
+  text-decoration: none;
+  color: #b98a5a;
+}
+
+.navbar .active {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  position: relative;
+  background: #b98a5a;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover::after {
+  position: absolute;
+  top: 40px;
+  content: '';
+  height: 3px;
+  border-radius: 5px;
+  left: 10%;
+  width: 80%;
+  background: #b98a5a;
+}
+
+.navbar .active:hover {
+  transform: none;
+  background: #dd9042;
+  border-radius: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar .active:hover::after {
+  display: none;
+}

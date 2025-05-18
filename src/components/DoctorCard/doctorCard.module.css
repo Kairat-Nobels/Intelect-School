@@ -1,0 +1,81 @@
+.card {
+    width: 360px;
+    padding: 10px 14px 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.13);
+}
+
+.card .img {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    background: #f8f8f8;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.card span,
+.card p span {
+    color: #040404;
+}
+
+.card h3 {
+    color: #C8A180;
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 800;
+    margin-bottom: 2px;
+    margin-top: 8px;
+}
+
+.subject {
+    color: #2d3a4b;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.card p,
+.card h4,
+.card .education,
+.card .experience,
+.card .about {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+    color: #213547;
+    margin: 2px 0;
+    line-height: 1.4;
+}
+
+.card .education span,
+.card .experience span {
+    color: #b98a5a;
+    font-weight: 600;
+}
+
+.card .about {
+    margin-top: 6px;
+    font-style: italic;
+    color: #4a5a6a;
+}
