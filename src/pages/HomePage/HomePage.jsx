@@ -111,7 +111,7 @@ function HomePage() {
           <div className={styles.contactsInfo}>
             <h2>Контакты</h2>
             <p>г. Бишкек, улица Малабая Джунусалиева, 177/1</p>
-            <p>Телефон: <a href="tel:+996705889889">+996 705 889 889</a></p>
+            <p>Телефон: <a href="tel:+996508141312">+996 508 141 312</a></p>
             <p>Email: <a href="mailto:intellect.school.bishkek@gmail.com">intellect.school.bishkek@gmail.com</a></p>
             <p>Время работы: ПН-ПТ: с 8:00 до 17:00</p>
           </div>

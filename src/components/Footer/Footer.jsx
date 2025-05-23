@@ -28,7 +28,7 @@ function Footer() {
                     <div className={styles.info}>
                         <div>
                             <p className={styles.workTime}>Время работы: <span>ПН-ПТ: с 8:00 до 17:00</span></p>
-                            <div className={styles.tel}><img className={styles.telIcon} src={tel} alt="" /><a href='tel:+996705889889'>+996 705 889 889</a></div>
+                            <div className={styles.tel}><img className={styles.telIcon} src={tel} alt="" /><a href='tel:+996508141312'>+996 508 141 312</a></div>
                         </div>
                         <button onClick={() => setModal(true)} className={styles.linkBtn} to={'/services'}>Оставить Заявку</button>
                     </div>
@@ -37,7 +37,7 @@ function Footer() {
                     <ul>
                         <li><a target='_blank' href="https://www.facebook.com/"><div><img src={faceBookicon} alt="img" /></div></a></li>
                         <li><a target='_blank' href="https://www.instagram.com/"><div><img src={insta} alt="img" /></div></a></li>
-                        <li><a target='_blank' href="https://wa.me/996705889889"><div><img src={whats} alt="img" /></div></a></li>
+                        <li><a target='_blank' href="https://wa.me/996508141312"><div><img src={whats} alt="img" /></div></a></li>
                     </ul>
                     <button onClick={() => setModal(true)} className={styles.linkBtn}>Оставить Заявку</button>
                 </div>
